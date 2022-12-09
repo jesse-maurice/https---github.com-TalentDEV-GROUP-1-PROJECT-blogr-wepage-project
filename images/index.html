@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css "
+    />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script
+      src="https://kit.fontawesome.com/b6acd4ce29.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <nav>
+      <a href="/" class="logo">
+        <img src="./images/logo.svg" alt="Logo" />
+      </a>
+      <a href="#" class="ham">
+        <img src="./images/icon-menu.svg" alt="Open Menu" />
+      </a>
+      <div class="overlay">
+        <div class="nav-mobile">
+          <img src="./images/icon-close-menu.svg" alt="close menu" />
+          <div class="nav-mobile-con">
+            <div class="dropdown">
+              <div class="drop-btn">
+                Features <img src="./images/icon-arrow-up.svg" alt="Arrow Up" />
+              </div>
+              <div class="dropdown-content">
+                <a href="#"
+                  ><img src="./images/icon-todo.svg" alt="" />TodoList</a
+                >
+                <a href="#"
+                  ><img src="./images/icon-calendar.svg" alt="" />Calender</a
+                >
+                <a href="#"
+                  ><img src="./images/icon-reminders.svg" alt="" />Reminders</a
+                >
+                <a href="#"
+                  ><img src="./images/icon-planning.svg" alt="" />Planning</a
+                >
+              </div>
+            </div>
+            <div class="dropdown">
+              <div class="drop-btn">
+                Company <img src="./images/icon-arrow-up.svg" alt="Arrow Up" />
+              </div>
+              <div class="dropdown-content">
+                <a href="#">History</a>
+                <a href="#">Our Team</a>
+                <a href="#">Blog</a>
+              </div>
+            </div>
+          </div>
+
+          <a href="#" class="career">Career</a>
+          <a href="#" class="about">About</a>
+        </div>
+      </div>
+
+      <div class="nav-list">
+        <div class="dropdown">
+          <div class="drop-btn">
+            Features <img src="./images/icon-arrow-down.svg" alt="Arrow Down" />
+          </div>
+          <div class="dropdown-content">
+            <a href="#"><img src="./images/icon-todo.svg" alt="" />TodoList</a>
+            <a href="#"
+              ><img src="./images/icon-calendar.svg" alt="" />Calender</a
+            >
+            <a href="#"
+              ><img src="./images/icon-reminders.svg" alt="" />Reminders</a
+            >
+            <a href="#"
+              ><img src="./images/icon-planning.svg" alt="" />Planning</a
+            >
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <div class="drop-btn">
+            Company <img src="./images/icon-arrow-down.svg" alt="Arrow Down" />
+          </div>
+          <div class="dropdown-content">
+            <a href="#">History</a>
+            <a href="#">Our Team</a>
+            <a href="#">Blog</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <div class="drop-btn">Careers</div>
+        </div>
+
+        <div class="dropdown">
+          <div class="drop-btn">About</div>
+        </div>
+      </div>
+
+      <div class="nav-btns">
+        <button>Login</button>
+        <button>Register</button>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <div class="hero-text">
+        <h1>Make <br />remote work</h1>
+        <p>
+          Get your team in sync,no matter your location. <br />
+          Streamline processes, create team rituals, and <br />
+          watch productivity soar.
+        </p>
+        <button>Learn more</button>
+        <div class="socials">
+          <img src="./images/client-databiz.svg" alt="" />
+          <img src="./images/client-audiophile.svg" alt="" />
+          <img src="./images/client-meet.svg" alt="" />
+          <img src="./images/client-maker.svg" alt="" />
+        </div>
+      </div>
+
+      <div class="img-container">
+        <img src="./images/image-hero-mobile.png" id="hero-img-mobile" alt="" />
+        <img
+          src="./images/image-hero-desktop.png"
+          id="hero-img-desktop"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>
